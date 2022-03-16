@@ -1,4 +1,4 @@
-fun pangkat(angka: Int, bilPangkat : Int): Double {
+inline fun pangkat(angka: Int, bilPangkat : Int): Double {
     return Math.pow(angka.toDouble(), bilPangkat.toDouble())
 }
 fun main(args : Array<String>){
