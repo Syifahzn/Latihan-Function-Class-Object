@@ -11,7 +11,7 @@ class Barang(val nama: String, var harga: Int, var jumlah: Int, var diskon: Int)
         println("Diskon : $diskonBarang%")
     }
     fun hitungTotal(){
-        var total = hargaBarang * jumlahBarang * diskonBarang
+        val total = hargaBarang * jumlahBarang * diskonBarang
         println("Total : $total")
     }
 }
